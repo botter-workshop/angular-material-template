@@ -1,0 +1,10 @@
+.idea/
+.c9/
+bower_components/
+dist/
+node_modules/
+
+cordova/*
+!cordova/config.xml
+!cordova/hooks/
+!cordova/www/README.md

@@ -1,0 +1,11 @@
+<md-toolbar class="toolbar-shadow" layout="row" layout-align="end">
+    <div class="md-toolbar-tools">
+        <md-button ng-if="tc.menuVisible()" hide-gt-md ng-click="tc.toggleSideNav('left')" class="md-icon-button" aria-label="Settings">
+          <md-icon>menu</md-icon>
+        </md-button>
+        <h3 ng-if="tc.title">
+            {{tc.title()}}
+        </h3>
+        <span flex></span>
+    </div>
+</md-toolbar>

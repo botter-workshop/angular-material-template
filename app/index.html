@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Disable phone number detection on Safari/iOS -->
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Disable IE link highlighting -->
+    <meta name="msapplication-tap-highlight" content="no">
+    
+    <!-- Configure the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:">
+
+    <title>angular-material-template</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+
+    <!-- injector:css -->
+    <!-- endinjector -->
+
+    <!-- injector:js -->
+    <!-- endinjector -->
+</head>
+<body layout="row">
+    <sidenav></sidenav>
+    <div layout="column" flex>
+        <toolbar></toolbar>
+        <md-content flex layout="column" ui-view>
+        </md-content>
+    </div>
+</body>
+</html>
