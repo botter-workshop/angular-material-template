@@ -126,7 +126,7 @@ module.exports = function (grunt) {
         connect: {
             default: {
                 options: {
-                    port: 9091,
+                    port: 8080,
                     base: distRoot
                 }
             }

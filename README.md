@@ -32,7 +32,7 @@ the production files you can run:
 For Cordova use this project supports the following the platforms (although it may work on others that aren't listed).
 
 * iOS 8+
-* Android 5+ (4+ with Crosswalk)
+* Android 4+ (Using Crosswalk)
 
 Make sure you install the appropriate SDK for your target platforms before attempting to build.
 
