@@ -1,7 +1,7 @@
 # Angular Material Template
 
 This project provides a template for building an Angular Material app that is Web and Cordova ready. The build chain
-is Grunt-based and facilitates building for both the web and supported Cordova platforms.
+is Grunt-based and facilitates building for both the Web and supported Cordova platforms.
 
 One of the goals of this project is to provide a well defined means of organizing an Angular Material app so that 
 it is scalable and manageable.
