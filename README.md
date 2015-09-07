@@ -6,9 +6,6 @@ is Grunt-based and facilitates building for both the web and supported Cordova p
 One of the goals of this project is to provide a well defined means of organizing an Angular Material app so that 
 it is scalable and manageable.
 
-## Cordova
-
-
 ## Getting Started
 To get started all you need to do is to run the following:
 
