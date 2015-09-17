@@ -4,8 +4,7 @@
     angular
         .module('app.core', [
             'ngMaterial',
-            'ui.router',
-            'firebase'
+            'ui.router'
         ]);
 
 })();
